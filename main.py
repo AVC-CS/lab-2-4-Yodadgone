@@ -5,9 +5,9 @@ def main():
     # Comlete your code here
     ##################################################
     secondP = original_str.find('P', 1)
-    sub2 = original_str[secondP:]   #sub2 = orginal_str{7:}
-    sub1 = original_str[:secondP-1] #sub1 = original_str[:6]
-    merged_str = sub1 + sub2 
+    sub2 = original_str[secondP:]   
+    sub1 = original_str[:secondP-1] 
+    merged_str = sub1 +  ' '+ sub2 
     print(sub2)
     print(sub1)
     print(merged_str)
@@ -15,7 +15,6 @@ def main():
     #########################################
     # Do not delete the return statement
     return sub1, sub2, merged_str
-
 
 
 if __name__ == '__main__':
